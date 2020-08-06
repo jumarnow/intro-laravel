@@ -13,7 +13,8 @@
 
 
 
-Route::get('/', 'HomeController@home');
+Route::get('/', 'LteController@home');
+Route::get('/data-tables', 'LteController@datatables');
 Route::get('/register', 'AuthController@register');
 Route::post('/welcome', 'AuthController@welcome');
 
