@@ -16,11 +16,11 @@ class CreateKomentarJawaban extends Migration
         Schema::create('komentar_jawaban', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('isi', 255);
-            $table->date('tanggal_dibuat');
-            $table->unsignedBigInteger('jawaban_id');
-            $table->foreign('jawaban_id')->references('id')->on('jawaban');
-            $table->unsignedBigInteger('profil_id');
-            $table->foreign('profil_id')->references('id')->on('profil');
+            // $table->date('tanggal_dibuat');
+            // $table->unsignedBigInteger('jawaban_id');
+            // $table->foreign('jawaban_id')->references('id')->on('jawaban');
+            // $table->unsignedBigInteger('profil_id');
+            // $table->foreign('profil_id')->references('id')->on('profil');
             $table->timestamps();
         });
     }

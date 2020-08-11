@@ -20,8 +20,8 @@ class CreatePertanyaan extends Migration
             // $table->date('tanggal_dibuat');
             // $table->date('tanggal_diperbaharui');
             // $table->foreign('jawaban_tepat_id')->references('id')->on('jawaban');
-            $table->unsignedBigInteger('profil_id');
-            $table->foreign('profil_id')->references('id')->on('profil');
+            // $table->unsignedBigInteger('profil_id');
+            // $table->foreign('profil_id')->references('id')->on('profil');
             $table->timestamps();
         });
     }

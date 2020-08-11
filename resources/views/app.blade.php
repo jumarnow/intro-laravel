@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Templating Laravel</title>
+  <title>Laravel</title>
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
@@ -36,6 +36,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <li class="nav-item">
             <a href="/data-tables" class="nav-link">Data Tables</a>
+          </li>
+          <li class="nav-item">
+            <a href="/pertanyaan" class="nav-link">Pertanyaan</a>
           </li>
         </ul>
 

@@ -18,3 +18,5 @@ Route::get('/data-tables', 'LteController@datatables');
 Route::get('/register', 'AuthController@register');
 Route::post('/welcome', 'AuthController@welcome');
 
+Route::resource('/pertanyaan', 'PertanyaanController');
+

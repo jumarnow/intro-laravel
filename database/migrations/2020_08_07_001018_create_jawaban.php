@@ -16,10 +16,10 @@ class CreateJawaban extends Migration
         Schema::create('jawaban', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('isi', 255);
-            $table->unsignedBigInteger('pertanyaan_id');
-            $table->foreign('pertanyaan_id')->references('id')->on('pertanyaan');
-            $table->unsignedBigInteger('profil_id');
-            $table->foreign('profil_id')->references('id')->on('profil');
+            // $table->unsignedBigInteger('pertanyaan_id');
+            // $table->foreign('pertanyaan_id')->references('id')->on('pertanyaan');
+            // $table->unsignedBigInteger('profil_id');
+            // $table->foreign('profil_id')->references('id')->on('profil');
             $table->timestamps();
         });
     }
